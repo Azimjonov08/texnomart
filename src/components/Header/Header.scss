@@ -1,0 +1,182 @@
+.header {
+
+    .header-top {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #333;
+        justify-content: space-between;
+
+        .btn-1 {
+            background-color: transparent;
+            text-align: center;
+            color: #fff;
+            gap: 5px;
+            border: none;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+
+            .img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .list {
+            display: flex;
+            gap: 0 32px;
+
+            li {
+                color: #FFF;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+            }
+
+            .yuridik {
+                padding: 3px 8px 4px 8px;
+                border-radius: 6px;
+                background: rgba(217, 217, 217, 0.20);
+            }
+        }
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        gap: 0 32px;
+
+        .box {
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            p {
+                color: #FFF;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+                margin-right: 10px;
+            }
+
+            a {
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px;
+            }
+        }
+
+        .box-1 {
+            display: flex;
+            border-radius: 150px;
+            border: 1px solid rgba(217, 217, 217, 0.20);
+            padding: 5px;
+            gap: 0 3px;
+        }
+
+        .btn-2 {
+            border: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+    }
+
+    .header-offer {
+        display: flex;
+        padding-top: 20px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+
+        .btn {
+            display: flex;
+            align-items: center;
+            gap: 0 8px;
+            border-radius: 12px;
+            background: #FBC100;
+            color: #333;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.3px;
+        }
+
+        .boxer {
+            width: 580px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            border-radius: 12px;
+            border: 2px solid #FBC100;
+            justify-content: space-between;
+            padding: 10px;
+
+            input {
+                padding-right: 330px;
+                border: none;
+                color: #9CA3AF;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .list-1 {
+            display: flex;
+            gap: 0 38px;
+            text-align: center;
+        }
+    }
+
+    .header-owner {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            color: #373F41;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 17px;
+            text-transform: uppercase;
+        }
+
+        .item-1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .item-2 {
+            border-radius: 50px;
+            padding: 4px 8px;
+            font-size: 10px;
+            color: #FFF;
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            background: linear-gradient(94deg, #FF5336 25.59%, #FF833D 81.58%);
+        }
+    }
+}
