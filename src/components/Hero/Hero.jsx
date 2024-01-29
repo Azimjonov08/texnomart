@@ -19,7 +19,7 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 function Hero() {
     return(
         <>
-<div className="container">
+
       
          <Swiper
         cssMode={true}
@@ -28,9 +28,8 @@ function Hero() {
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <SwiperSlide><img src={HeroImg1} alt="" /> </SwiperSlide>
+        className="mySwiper">
+        <SwiperSlide><img src={HeroImg1} alt="" /></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
@@ -40,7 +39,6 @@ function Hero() {
         <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
-      </div>
         </>
     )
 }
