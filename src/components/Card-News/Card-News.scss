@@ -1,0 +1,143 @@
+// ===================== STYLE =========================
+
+.cards {
+
+    // =========================== START STYLE OF TITLE ===============================
+
+    h2 {
+        display: flex;
+        width: 98.572px;
+        height: 32px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #333;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    // ============================== END STYLE OF TITLE ================================
+
+
+    // ============================== START STYLE OF ITEM ===============================
+
+    .item {
+        position: relative;
+        width: 271.19px;
+        height: 415.8px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        border: 1px solid #ECECEC;
+        background: #FFF;
+        padding: 17px 17px 26px 17px;
+
+        // ========================== START STYLE OF ITEM-BOX ============================
+
+        .item-box {
+            display: flex;
+
+            .poco {
+                width: 270px;
+                height: 208px;
+                margin-bottom: 17px;
+            }
+
+            // ========================== START STYLE OF RIGHT-IMG_BOX ==========================
+
+            .right-img_box {
+                position: absolute;
+                right: 10px;
+
+                button {
+                    display: flex;
+                    width: 32px;
+                    height: 32px;
+                    padding: 7px;
+                    justify-content: center;
+                    align-items: center;
+                    flex-shrink: 0;
+                    padding: 7px;
+                    border-radius: 50px;
+                    border: 1px solid rgba(237, 237, 237, 0.50);
+                    background: rgba(255, 255, 255, 0.80);
+                    margin-bottom: 6px;
+                }
+            }
+
+        }
+
+        // ========================== END STYLE OF ITEM-BOX =============================
+
+        // ========================== START STYLE OF ITEM-TEXT =======================
+
+        p {
+            display: flex;
+            width: 190px;
+            height: 34px;
+            flex-direction: column;
+            justify-content: center;
+            color: #373F41;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            margin-bottom: 10px;
+        }
+
+        // =============================== END STYLE OF ITEM-TEXT ==========================
+
+        // ============================== START STYLE OF ITEM-STARS =======================
+
+        .item-stars {
+            display: flex;
+            gap: 2px;
+            margin-bottom: 16px;
+
+            // button {
+            //     color: #BABAC0;
+            //     width: 14px;
+            //     height: 14px;
+            //     background-color: transparent;
+            // }
+
+
+        }
+
+        // ================================ END STYLE OF ITEMS-STARS =============================
+
+        // ================================ START STYLE OG ITEMS-LINK =============================
+
+        .item-link {
+
+            display: flex;
+            width: 159.073px;
+            height: 16px;
+            flex-direction: column;
+            justify-content: center;
+            flex-shrink: 0;
+            color: #333;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16.8px;
+            margin-bottom: 32px;
+            display: flex;
+            width: 174.75px;
+            height: 24.8px;
+            padding: 4px 8px 4.8px 8px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            background: #F4F4F4;
+        }
+
+        // =========================== END STYLE OF ITENS-LINK =============================
+    }
+
+
+
+
+    // ================================ END STYLE OF ITEM =================================
+}
