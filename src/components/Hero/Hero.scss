@@ -22,3 +22,20 @@
     height: 100%;
     object-fit: cover;
   }
+
+  //style
+
+  .swiper-button-next {
+    width: 48px !important;
+    height: 48px !important;
+    right: 20px !important;
+    border-radius: 50%;
+    border: 1px solid #ececec !important;
+    background-color: white;
+
+    &::after {
+      font-size: 18px !important;
+      color: black !important;
+    }
+  }
+
