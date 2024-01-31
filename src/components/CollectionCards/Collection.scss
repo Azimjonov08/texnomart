@@ -1,7 +1,60 @@
 // ===================== STYLE =========================
 
-.cards {
+.collection-cards {
     margin-bottom: 56px;
+
+    // =========================== START STYLE OF BUTTONS ===========================
+
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 0px 16px;
+        margin-bottom: 24px;
+
+        .buttons-btn-1 {
+            padding: 8px 17px;
+            display: flex;
+            width: 112.75px;
+            height: 32px;
+            padding: 8px 16.679px 8px 17px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            border: 1px solid #FBC100;
+            background: #FBC100;
+
+        }
+
+        .buttons-btn-2 {
+            display: flex;
+            width: 124px;
+            height: 32px;
+            padding: 8px 16.661px 8px 17px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            border: 1px solid #ECECEC;
+            background-color: transparent;
+        }
+
+        .buttons-btn-3 {
+            display: flex;
+            width: 65.31px;
+            height: 32px;
+            padding: 8px 15px 8px 15px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+            border: 1px solid #ECECEC;
+            background-color: transparent;
+        }
+    }
+
+
+
+
+    // =========================== END STYLE OF BUTTONS ============================
 
     // =========================== START STYLE OF TITLE ===============================
 
@@ -40,8 +93,8 @@
         .item-box {
             display: flex;
 
-            .poco {
-                width: 270px;
+            .honor {
+                width: 237px;
                 height: 208px;
                 margin-bottom: 17px;
             }

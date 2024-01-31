@@ -1,0 +1,93 @@
+.amenities {
+    margin-bottom: 71px;
+    h2 {
+        display: flex;
+        margin: 0 auto;
+        width: 479.807px;
+        height: 32px;
+        justify-content: center;
+        color: #333;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .box {
+        ul {
+            display: flex;
+            margin: 0 auto;
+            align-items: center;
+            width: 1442px;
+            height: 222px;
+            padding: 31px 1px;
+            justify-content: center;
+            align-items: flex-start;
+            border-radius: 16px;
+            border: 1px solid #ECECEC;
+            background: #FFF;
+        }
+
+        li {
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 288px;
+            height: 160px;
+            flex-shrink: 0;
+            border-left: 1px solid #ECECEC;
+            flex-shrink: 0;
+
+            h4 {
+                display: flex;
+                margin: 0 auto;
+                justify-content: center;
+                width: 160px;
+                height: 19px;
+                flex-shrink: 0;
+                color: black;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 50;
+                line-height: 17.6px;
+                margin-bottom: 10px;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                width: 184px;
+                height: 47px;
+                color: #333;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+            }
+
+
+            button {
+                display: flex;
+                margin: 0 auto;
+                text-align: center;
+                width: 60px;
+                height: 60px;
+                padding: 9.48px 10px 9.5px 10px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                border-radius: 60px;
+                background: #F7F7F7;
+                margin-bottom: 17px;
+
+               
+
+            }
+        }
+    }
+}

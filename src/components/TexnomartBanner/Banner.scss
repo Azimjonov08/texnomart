@@ -1,0 +1,122 @@
+// ======================== START STYLE OF BANNER ================================
+
+.banner {
+    position: relative;
+    width: 1440px;
+    height: 440px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #F7F7F7;
+    margin-bottom: 68px;
+
+
+    // =============================== START STYLE OF BANNER-BOX =============================
+
+    .banner-box {
+
+
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+
+        .duble-phone {
+            width: 475px;
+            height: 440px;
+        }
+
+        .banner-box_right {
+            display: flex;
+            flex-direction: column;
+            width: 444px;
+            height: 415px;
+            margin-left: 130px;
+            justify-content: center;
+
+            h2 {
+                display: flex;
+                width: 470px;
+                height: 44px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #000;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 53.2px;
+                margin-bottom: 27px;
+            }
+
+            p {
+                display: flex;
+                width: 409.159px;
+                height: 47px;
+                flex-direction: column;
+                justify-content: center;
+                color: #000;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+                margin-bottom: 23px;
+            }
+
+
+
+            .scanner-box {
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+
+                img {
+                    width: 112px;
+                    height: 112px;
+                }
+
+                p {
+                    display: flex;
+                    width: 213px;
+                    height: 67px;
+                    flex-direction: column;
+                    justify-content: center;
+                    color: #000;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-left: 24px;
+                }
+
+                span {
+                    color: #000;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                }
+            }
+
+
+        }
+
+
+        .banner-right_footer {
+            display: flex;
+            align-items: center;
+            gap: 0px 12px;
+
+            img {
+                width: 110px;
+                height: 37px;
+                flex-shrink: 0;
+            }
+        }
+
+        // ============================== END STYLE OF BANNER-BOX =============================
+
+    }
+
+}
+
+// ======================== END STYLE OF BANNER ==============================

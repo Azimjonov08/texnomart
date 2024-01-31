@@ -2,26 +2,31 @@
 
 import { Rate } from 'antd';
 
-import "./Card-News.scss";
+import "./Collection.scss";
 
 // ======================== IMPORT OF IMAGES =========================
-import PocoImg from "../../assets/img/PocoImg.png";
+import HonorImg from "../../assets/img/Honor.png";
 import HeartImg from "../../assets/Heart.svg";
 import ScalesImg from "../../assets/Scales.svg";
 import ShopImg from "../../assets/shop.svg";
 
 
 
-function CardNews() {
+function Collection() {
     return (
-        <div className="cards">
+        <div className="collection-cards">
             <div className="container">
                 <h2>Новинка</h2>
+                <div className="buttons">
+                  <button className='buttons-btn-1'>Mazzza narx</button>
+                  <button className='buttons-btn-2'>Рекомендуем</button>
+                  <button className='buttons-btn-3'>0-0-6</button>
+                </div>
                 <ul>
                     <li className='item'>
 
                         <div className="item-box">
-                            <img className="poco" src={PocoImg} alt="Poco" width={270} height={208} />
+                            <img className="honor" src={HonorImg} alt="Honor" width={237} height={208} />
                             <div className="right-img_box">
                                 <button>
                                     <img src={HeartImg} alt="HeartImg " width={18} height={18} />
@@ -32,8 +37,7 @@ function CardNews() {
                             </div>
                         </div>
                         <p>
-                            Смартфон Huawei Nova Y91
-                            8/256Gb Moonlight Silver
+                            Смартфон Honor X6a 4/128Gb Black
                         </p>
 
                         <div className="item-stars">
@@ -42,10 +46,10 @@ function CardNews() {
 
                         </div>
                         <a href="#" className="item-link">
-                            от 224 176 сум / 24 мес.
+                            от 131 130 сум / 24 мес.
                         </a>
                         <div className="card-footer">
-                            <h4>3 214 000 <span>сум</span></h4>
+                            <h4>1 880 000  <span>сум</span></h4>
                             <button>
                                 <img src={ShopImg} alt="ShopImg" />
                             </button>
@@ -61,4 +65,4 @@ function CardNews() {
     )
 }
 
-export default CardNews
+export default Collection
